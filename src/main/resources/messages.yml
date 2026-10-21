@@ -1,0 +1,8 @@
+prefix: '&8[&bCustomLazyTNT&8] '
+no-permission: '&cу тебя нет прав'
+unknown-type: '&cтакого динамита нет'
+reload: '&aконфиг перезагружен'
+given: '&aвыдал &f{amount} &aштук типа &f{type}'
+wand-given: '&aвот твоя снежная кисть'
+player-only: '&cэто только для игрока'
+usage: '&7/customlazytnt give <игрок> <тип> <количество>'

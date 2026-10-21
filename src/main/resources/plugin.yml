@@ -1,0 +1,22 @@
+name: CustomLazyTNT
+version: 1.0.0
+main: me.lazzyibyt.customlazytnt.CustomLazyTNT
+api-version: '1.21'
+author: Lazzyibyt
+description: Custom TNT with special explosions and temporary ice
+commands:
+  customlazytnt:
+    description: Main CustomLazyTNT command
+    usage: /customlazytnt <give|list|reload|wand>
+    aliases: [cltnt]
+permissions:
+  customlazytnt.admin:
+    default: op
+  customlazytnt.use.fragment:
+    default: true
+  customlazytnt.use.snow:
+    default: op
+  customlazytnt.use.destructive:
+    default: op
+  customlazytnt.wand:
+    default: op

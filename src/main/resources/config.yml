@@ -1,0 +1,70 @@
+# тут все уже настроено можеш менять под себя
+settings:
+  namespace: customlazytnt
+  max-sphere-radius: 10
+  max-sphere-blocks: 5000
+  respect-worldguard: false
+
+tnt-types:
+  fragment:
+    enabled: true
+    material: TNT
+    name: '&cОсколочный динамит'
+    lore:
+      - '&7взрывается как обычный тнт'
+      - '&7обычный обсидиан ломает'
+      - '&7плачущий обсидиан делает обычным'
+    fuse-ticks: 100
+    explosion-power: 4.0
+    break-blocks: true
+    damage-entities: true
+    damage: 4.0
+    break-obsidian: true
+    transform-crying-obsidian: true
+    fire: false
+
+  snow:
+    enabled: true
+    material: TNT
+    name: '&bСнежный динамит'
+    lore:
+      - '&7делает ледяную сферу'
+      - '&7лед живет пять секунд'
+      - '&7вода тоже превращается в лед'
+    fuse-ticks: 100
+    explosion-power: 0.0
+    sphere-radius: 3
+    ice-duration-ticks: 100
+    ice-material: ICE
+    replace-air: true
+    replace-water: true
+    break-sound: BLOCK_GLASS_BREAK
+
+  destructive:
+    enabled: true
+    material: TNT
+    name: '&4Разрушительный динамит'
+    lore:
+      - '&7ломает блоки вокруг'
+      - '&7и наносит очень много урона'
+    fuse-ticks: 100
+    explosion-power: 4.0
+    break-blocks: true
+    damage-entities: true
+    damage: 40.0
+    damage-radius: 4.0
+    distance-scaling: true
+    damage-players: true
+    damage-mobs: true
+    break-obsidian: true
+    transform-crying-obsidian: true
+    fire: false
+
+snow-wand:
+  enabled: true
+  name: '&bСнежная кисть'
+  radius: 3
+  duration-ticks: 100
+  ice-material: ICE
+  replace-air: true
+  replace-water: true
