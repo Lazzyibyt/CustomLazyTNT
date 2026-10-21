@@ -1,4 +1,4 @@
-package me.lazzyibyt.customlazzytnt;
+package me.lazzyibyt.customlazytnt;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
